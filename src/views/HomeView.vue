@@ -84,14 +84,7 @@ export default {
     }
   },
   watch: {
-    // 'document.documentElement.clientWidth'(val) {
-    //   console.log(val)
-    //   if (val > document.documentElement.clientHeight) {
-    //     this.isPortrait = true
-    //   } else {
-    //     this.isPortrait = false
-    //   }
-    // }
+
   },
   created() {
     this.loadJSON()
