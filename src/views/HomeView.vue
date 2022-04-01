@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-    <div class="home-flex" v-if="isPortrait">
+    <div class="home-flex" v-if="isPortrait && width < 1100">
       <img src="../assets/item.jpg" />
     </div>
   </div>
