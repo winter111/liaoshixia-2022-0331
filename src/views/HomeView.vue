@@ -48,7 +48,6 @@
 </template>
 
 <script>
-import json from '../common/data.json';
 
 export default {
   name: 'HomeView',
@@ -94,7 +93,7 @@ export default {
         //1、创建 xh
         var xhr = new XMLHttpRequest()
         //2、创建请求
-        xhr.open("get",json,true);
+        xhr.open("get", '/data.json',true);
         //3、设置回调函数
         xhr.onreadystatechange = function(){
           if(xhr.readyState==4&&xhr.status==200){
